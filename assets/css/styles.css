@@ -70,13 +70,14 @@ nav ul li a:hover {
   display: flex;
   background-color: #111827;
   color: #fff;
+  overflow: hidden;
 }
 .main-jum {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: center;
-  margin: 100px 0;
+  padding-bottom: 50px;
 }
 .jum section {
   min-width: 50%;
@@ -116,7 +117,7 @@ nav ul li a:hover {
   padding-top: 25px;
   padding-bottom: 75px;
 }
-.jum p {
+.jum p#text1 {
   font-size: 20px;
   line-height: 1.75rem;
   color: rgba(209, 213, 219);
@@ -147,14 +148,13 @@ form button {
   font-size: 15px;
   font-weight: 600;
 }
-.jum p.terminos {
+.jum p#text2 {
   margin-top: 15px;
   color: rgba(209, 213, 219);
   font-size: 14px;
   line-height: 1.5;
 }
 .jum section .imagen {
-  display: flex;
   padding: 10px 0;
   height: 100%;
   position: relative;
@@ -166,6 +166,10 @@ form button {
   left: 0;
   width: auto;
   height: 100%;
+}
+.jum section:nth-child(1) {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .jum section:nth-child(2) {
   height: 100%;
