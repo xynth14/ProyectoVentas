@@ -4,11 +4,18 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
   background-color: #111827;
   color: white;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-header {
   display: flex;
@@ -16,11 +23,6 @@ header {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .menu {
   display: flex;
@@ -61,4 +63,110 @@ nav ul li a:hover {
 }
 .sesion a:hover {
   color: rgba(209, 213, 219);
+}
+
+/*JUMBOTRON*/
+.jum {
+  display: flex;
+  background-color: #111827;
+  color: #fff;
+}
+.main-jum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 100px 0;
+}
+.jum section {
+  min-width: 50%;
+}
+.ofertas {
+  display: inline-flex;
+  background-color: #000;
+  border-radius: 50px;
+  color: #fff;
+  padding: 7px 40px 7px 20px;
+  font-size: 14px;
+}
+.ofertas a {
+  position: relative;
+  margin-left: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+.ofertas a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2.5px;
+  border-top: 2.5px solid rgba(255, 255, 255, 0.5);
+  border-right: 2.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  transform: rotate(45deg);
+  margin-top: 6px;
+  margin-right: -20px;
+}
+.jum h1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+.jum p {
+  font-size: 20px;
+  line-height: 1.75rem;
+  color: rgba(209, 213, 219);
+}
+form {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  gap: 15px;
+  max-width: 94%;
+  padding-top: 50px;
+}
+form input {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  border: 0;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+form input::placeholder {
+  letter-spacing: 0.3px;
+}
+form button {
+  background-color: #369ba8;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.jum p.terminos {
+  margin-top: 15px;
+  color: rgba(209, 213, 219);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.jum section .imagen {
+  display: flex;
+  padding: 10px 0;
+  height: 100%;
+  position: relative;
+}
+.jum section .imagen img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+}
+.jum section:nth-child(2) {
+  height: 100%;
 }
