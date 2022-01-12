@@ -6,6 +6,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header {
   background-color: #111827;
   color: white;
@@ -302,4 +303,70 @@ article.card .img-card.imgCard3 {
 .details-post div {
   color: #6b7280;
   font-size: 14px;
+}
+.adicional {
+  position: relative;
+  background: #111827;
+  overflow: hidden;
+}
+.main-adicional {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.main-adicional .item-adicional {
+  position: relative;
+  padding: 130px 40px;
+}
+.main-adicional .item-adicional:nth-child(1) {
+  padding: 0 0;
+  width: 100%;
+  height: 100%;
+}
+.item-adicional .details-adicional {
+  color: #d1d5db;
+}
+.item-adicional .details-adicional > span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.item-adicional .details-adicional h2 {
+  color: white;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 800;
+  padding: 15px 0;
+}
+.item-adicional .details-adicional p {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 0 20px;
+}
+.item-adicional .details-adicional a {
+  display: inline-block;
+  background: #ffffff;
+  border: solid 1px white;
+  color: #111827;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all ease-in-out 0.2s;
+}
+.item-adicional .details-adicional a:hover {
+  background: #111827;
+  color: #ffffff;
+}
+.img-adicional {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+.img-adicional img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
