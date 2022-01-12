@@ -370,3 +370,66 @@ article.card .img-card.imgCard3 {
   width: 100%;
   height: 100%;
 }
+
+footer {
+  background: #f9fafb;
+}
+footer .main-footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 100px 0 50px;
+}
+footer .main-footer ul {
+  list-style: none;
+}
+footer .main-footer ul li a {
+  text-decoration: none;
+}
+footer .main-footer .rrss ul {
+  display: flex;
+}
+footer .main-footer .rrss ul li {
+  margin-right: 20px;
+}
+
+footer .main-footer .rrss ul li a i {
+  display: block;
+  font-size: 20px;
+  color: #9ca3af;
+  transform: scale(1);
+  transition: all ease-in-out 0.1s;
+}
+footer .main-footer .rrss ul li a:hover i {
+  color: #6b7280;
+  transform: scale(1.2);
+}
+
+footer .main-footer .listas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+footer .main-footer .listas h3 {
+  font-size: 14px;
+  color: #9ca3af;
+  padding-bottom: 10px;
+}
+footer .main-footer .listas ul li a {
+  display: block;
+  color: #6b7280;
+  margin: 14px 0;
+}
+footer .main-footer .listas ul li a:hover {
+  color: #111827;
+}
+
+footer .copy-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-top: 1px solid #e5e7eb;
+}
+footer .copy-footer p {
+  color: #9ca3af;
+}
