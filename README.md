@@ -25,6 +25,8 @@ Además, fabricar un prototipo nos aporta algunos beneficios:
 - Reducimos el riesgo, ya que si alguna función de nuestro producto no gusta, **dejamos de implementarla** antes de la fabricación en cadena.
 - Podemos **mejorar nuestro producto** según la aceptación que ha tenido entre los clientes.
 
+[Prototipo Figma](https://www.figma.com/file/vwnjCwfpcsTDkX68KemLY8/Proyecto-Ventas?node-id=2%3A2)
+
 ![Prototipo Simple](https://lh3.googleusercontent.com/O25fOfl0650jH8Sow66XciWmgKh4MGYljQTz36KLp28FFDsy61P_QfqOeCqQgDXIqD1KtOkntr44u0-B--kJk5k1kwtFHGrdLUZZln7Uc0Z7OpDBZpJwEJ1DM_H2Kki2RxSV6nWKluNGOPH_B_PxXAfgAeChWkiom8YQXrUlfiTxNAitofMaCMaC6eQsdbrgXjnoKyYxCqXiY636FtejcpKs4mhOQLLllJ2ha7pL3b5N3M3KrCUCG8DQSoxYTGzHoNzuidnTEUduxx_zZ-OcLQUSI-oSx9fFT3gggez_slUsY6RvB1iDLHH6sshEs7f4e_uk4qwNGkPIiRIq8VsKDyuF3h-cgJmQS-VkSyq5-2T_2DZgizzVgpjNhE5BDrdyjHKZtcBWq4_kY68rcqEaI1HqVTMf6p-GW9gFhryZHk-ItuT84JvkPzwhUZY1OmNfnNvYFs779DpNIb1IWCpr4pFB8vkInOwxp_dJVZ4kKxbQdIlLNHoQOxWbpDL_TLhTrw2hVN387aD6q2Ob0jB0uonHX0FgVs5-0IlKDyTaverIBRjDbgqRi3O8MdofNAzv46vshETbt_EmC1-Hc6eyYNXbX6JcBtFVDVL_g8UdOzd1jPdcGnScR5WqnsvHHRHYwjUii21g2r3KsfSyZWReAZWtxc5v7On6rrRt1UwkDuXMo28DtZR6zSTRjAvnPepE0g-qijBHcSa1KVLbcir45AUziA=w591-h969-no?authuser=0)
 
 
@@ -36,6 +38,7 @@ Además, fabricar un prototipo nos aporta algunos beneficios:
 - Photoshop
 - Icomoon
 - Istockphoto
+- Figma
 
 
 ## 🔗 Demo
