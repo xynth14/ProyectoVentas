@@ -19,15 +19,19 @@
 		<div class="container main-header">
 			<div class="menu">
 				<div class="logo"><img src="assets/images/logo.png" alt=""></div>
-				<nav>
+				<nav id="btn-mv">
 					<ul>
 						<li><a href="#">Catálogo</a></li>
 						<li><a href="#">¿Quiénes somos?</a></li>
 						<li><a href="#">Contacto</a></li>
+						<li class="item-sesion"><a href="#">Iniciar Sesión</a></li>
 					</ul>
 				</nav>
 			</div>
-			<div class="sesion"><a href="#">Iniciar sesión</a></div>
+			<div class="sesion">
+				<a href="#">Iniciar sesión</a>
+				<a class="btn-movil" onclick="mostrar_menumv()"><i></i></a>
+			</div>
 		</div>
 	</header>
 	<main>
@@ -180,36 +184,42 @@
 					</ul>
 				</div>
 				<div class="listas">
-					<div class="item_lista">
-						<h3>GUITARRAS</h3>
-						<ul>
-							<li><a href="#">Catálogo</a></li>
-						</ul>
+					<div class="box">
+						<div class="item_lista">
+							<h3>GUITARRAS</h3>
+							<ul>
+								<li><a href="#">Catálogo</a></li>
+							</ul>
+						</div>
+						<div class="item_lista">
+							<h3>SOPORTE</h3>
+							<ul>
+								<li><a href="#">Precios y cotizaciones</a></li>
+								<li><a href="#">Certificaciones</a></li>
+								<li><a href="#">Guías</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="item_lista">
-						<h3>SOPORTE</h3>
-						<ul>
-							<li><a href="#">Precios y cotizaciones</a></li>
-							<li><a href="#">Certificaciones</a></li>
-							<li><a href="#">Guías</a></li>
-						</ul>
-					</div>
-					<div class="item_lista">
-						<h3>NOSOTROS</h3>
-						<ul>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Trabajos</a></li>
-							<li><a href="#">Prensa</a></li>
-							<li><a href="#">Partners</a></li>
-						</ul>
-					</div>
-					<div class="item_lista">
-						<h3>LEGAL</h3>
-						<ul>
-							<li><a href="#">Privacidad</a></li>
-							<li><a href="#">Términos</a></li>
-						</ul>
+
+					<div class="box">
+						<div class="item_lista">
+							<h3>NOSOTROS</h3>
+							<ul>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Trabajos</a></li>
+								<li><a href="#">Prensa</a></li>
+								<li><a href="#">Partners</a></li>
+							</ul>
+						</div>
+						<div class="item_lista">
+							<h3>LEGAL</h3>
+							<ul>
+								<li><a href="#">Privacidad</a></li>
+								<li><a href="#">Términos</a></li>
+							</ul>
+						</div>
+
 					</div>
 
 				</div>
@@ -222,6 +232,14 @@
 
 		</div>
 	</footer>
+
+	<script>
+		function mostrar_menumv() {
+			var element = document.getElementById("btn-mv");
+			//console.log = "hola";
+			element.classList.toggle("act-mv");
+		}
+	</script>
 </body>
 
 </html>
